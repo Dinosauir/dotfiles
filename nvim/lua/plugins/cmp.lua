@@ -64,7 +64,7 @@ return {
             fallback()
           end
         end, { 'i', 's' }),
-        ['<c-y>'] = cmp.mapping.confirm { select = false },
+        ['<CR>'] = cmp.mapping.confirm { select = false },
       },
       experimental = {
         ghost_text = true,
